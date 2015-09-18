@@ -18,12 +18,12 @@ How would you implement backend data storage for Facebook-messenger-like applica
 
 Design the optimal data format for a message delivery system.
 Message delivery server works as a hub that relays incoming
-message payload to users based on user ID(s) defined
+message payload to receivers based on user ID(s) defined
 in the message. Same payload can be relayed to one or multiple users.
 Payload length is finite and protocol doesn't require multiplexing.
-Data format should be designed in away that it consumes limited
+Data format should be designed in a way that it consumes limited
 amount resources (memory, cpu etc.) to relay on the server. Connection
-is done using pure TCP.
+is done using pure TCP. The following constraints apply:
 
 - max receiver count 255
 - max payload length 1024 kilobytes
@@ -35,7 +35,7 @@ is done using pure TCP.
 ### Question 4.
 
 You are building an application running inside web browser. You have read a list of user's friends' usernames from server. List can contain hundreds of usernames. You need to implement a component that finds a usernames from this list based on user input.
-For example given a list of friend is ['fred', 'frank', 'jerry'] and user types `fr` should filter the list so that usernames containing `fr` are included. How would you implement this i.e. what data structures and algorithms would you use?
+For example given a list of friend is `['fred', 'frank', 'jerry']`. When user types `fr`, you should filter the list so that usernames containing `fr` are included. How would you implement this i.e. what data structures and algorithms would you use?
 
 ## Programming task
 
