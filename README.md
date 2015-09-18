@@ -65,7 +65,7 @@ Then `diff(first, second)` should return
   "baz": [
     "foo1"
   ],
-  "miss": 123,
+  "miss": "null",
   "new_value": 1
 }
 ```
