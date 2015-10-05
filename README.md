@@ -21,7 +21,7 @@ For example given a list of friend is `['fred', 'frank', 'jerry']`. When user ty
 
 ## Programming task
 
-Implement function `diff` to find changed values in two JSON objects. You can use any programming language but no external libraries allowed. Consider the performance of your implementation while keeping your code elegant. Provide code, tests & instructions how to run the tests. Given for example:
+Implement function `diff` to find changed values in two JSON objects. You can use any programming language but no external libraries allowed (except you can add a JSON parsing library if needed) . Consider the performance of your implementation while keeping your code elegant. Provide code, tests & instructions how to run the tests. Given for example:
 ```
 first = {
   "foo": {
