@@ -8,7 +8,7 @@ Take approx. 15 minutes to answer each question. Use can use diagrams or whateve
 
 ### Question 1.
 
-You are implementing a service that will receive videos uploaded from a mobile client and re-encode those videos. You have thousands of clients that are uploading video at the same time. Explain the software architecture for the service. What _technology/architecture/patterns_ would you use and why?
+You are implementing a service that will receive videos uploaded from a mobile client and re-encode those videos. You have thousands of clients that are uploading video at the same time. Explain the _software architecture_ for the service. What _technology/architecture/patterns_ would you use and why?
 
 ### Question 2.
 
