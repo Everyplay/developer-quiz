@@ -16,7 +16,7 @@ How would you implement backend data storage for Facebook-messenger-like applica
 
 ### Question 3.
 
-You are building an application running inside web browser. You have read a list of user's friends' usernames from server. List can contain hundreds of usernames. You need to implement a component that finds a usernames from this list based on user input.
+You are building an application running inside web browser. You have read a list of user's friends' usernames from server. List can contain thousands of usernames. You need to implement a component that finds a usernames from this list based on user input.
 For example given a list of friend is `'fred', 'frank', 'jerry'`. When user types `fr`, you should filter the list so that usernames containing `fr` are included. How would you implement this i.e. _what data structures and algorithms_ would you use?
 
 ## Programming task
